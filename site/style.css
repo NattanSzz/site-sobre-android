@@ -28,7 +28,9 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: #16472b;
+    background-color: #36a164;
+    color: #16472b;
+    font-weight: bold;
 }
 
 h1 {

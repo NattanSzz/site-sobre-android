@@ -57,7 +57,7 @@ h1 {
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-padrao);
     color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
@@ -82,7 +82,8 @@ p {
     margin: 0;
     padding: 10px;
     text-indent: 40px;
-    font-size: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 h3 {
@@ -98,7 +99,7 @@ h4 {
     margin: 0;
     padding: 5px 10px;
     font-size: 30px;
-    background-image: linear-gradient(to right, #d5f8e4, white);
+    background-image: linear-gradient(to right, var(--cor0), transparent);
     color: var(--cor4);
 }
 

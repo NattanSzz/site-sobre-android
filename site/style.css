@@ -145,9 +145,15 @@ a#link-externo:hover {
     text-decoration: underline;
 }
 
-picture {
+img {
+    width: 100%;
+    padding: 10px;
+}
+
+img#bugdroid {
     display: flex;
-    justify-content: center;
+    width: 50%;
+    margin: auto;
 }
 
 #video {
